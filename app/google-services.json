@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "949124991423",
+    "project_id": "smart-park-1f0ea",
+    "storage_bucket": "smart-park-1f0ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949124991423:android:d2ce0805693be3e799f90a",
+        "android_client_info": {
+          "package_name": "com.example.smart_park"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3TV9xvD_FzP9Hfm6ycGYjaaJtFaSCzdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949124991423:android:d78b7aef96886dc199f90a",
+        "android_client_info": {
+          "package_name": "com.example.smartpark"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3TV9xvD_FzP9Hfm6ycGYjaaJtFaSCzdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
