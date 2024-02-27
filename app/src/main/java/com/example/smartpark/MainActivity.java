@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(performLogin()){
+                performLogin();
                 sendUserToNextActivity2();
-            }}
+            }
         });
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,15 +51,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private boolean performLogin() {
+    private void performLogin() {
         String email=ipemail.getText().toString();
         String password=pass.getText().toString();
         if(!email.matches(emailpattern)){
             ipemail.setError("enter correct email");
-            return false;
         }else if(password.isEmpty() || password.length()<6){
             pass.setError("enter proper password");
-            return false;
         }else{
             progressDialog.setMessage("Please wait while Login....");
             progressDialog.setTitle("Registration");
@@ -78,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                  }
                 }
             });
-    } return true;}
+    } }
 
     private void sendUserToNextActivity() {
         Intent intent=new Intent(MainActivity.this,reg.class);
