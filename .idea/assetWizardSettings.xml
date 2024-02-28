@@ -302,7 +302,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/arrow_back/baseline_arrow_back_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/key/baseline_key_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -312,8 +312,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="fcfcfc" />
-                            <entry key="outputName" value="baseline_arrow_back_24" />
+                            <entry key="color" value="872792" />
+                            <entry key="outputName" value="baseline_key_24" />
                             <entry key="sourceFile" value="C:\Users\admin\AndroidStudioProjects\SmartPark" />
                           </map>
                         </option>

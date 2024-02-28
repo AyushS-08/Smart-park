@@ -5,8 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/bk">
+    android:background="#F6F8FA"
+    tools:context=".MainActivity">
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,19 +14,27 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:padding="42dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/login" />
+
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="LOGIN"
             android:textSize="44sp"
             android:textStyle="bold"
-            android:textColor="@color/black">
+            android:textColor="#02339C">
         </TextView>
         <EditText
             android:layout_width="match_parent"
+            android:layout_margin="10dp"
             android:layout_height="wrap_content"
             android:id="@+id/tf1"
-            android:drawableLeft="@mipmap/user"
+            android:drawableLeft="@drawable/user"
             android:inputType="text"
             android:hint="   Enter username"
             android:textColor="@color/black"
@@ -36,7 +44,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tf2"
-            android:drawableLeft="@mipmap/baseline_key_24"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/baseline_key_24"
             android:inputType="textPassword"
             android:textColor="@color/black"
             android:hint="   Enter Password"
@@ -48,7 +57,8 @@
             android:id="@+id/tf4"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:backgroundTint="#abc"
+            android:layout_margin="10dp"
+            android:backgroundTint="#003EC1"
             tools:ignore="InvalidId">
         </Button>
         <Button
@@ -56,7 +66,8 @@
             android:id="@+id/tf3"
             android:layout_height="wrap_content"
             android:text="Sign-in"
-            android:backgroundTint="#abc"
+            android:layout_margin="10dp"
+            android:backgroundTint="#003EC1"
             tools:ignore="InvalidId">
         </Button>
 

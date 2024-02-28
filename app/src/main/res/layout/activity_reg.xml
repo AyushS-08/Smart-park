@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".reg"
-    android:background="@drawable/bk">
+    android:background="#F6F8FA">
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_gravity="center"
+        android:layout_marginTop="37dp"
+        android:gravity="center"
         android:padding="32dp">
         <TextView
             android:layout_height="wrap_content"
@@ -18,30 +19,36 @@
             android:text="REGISTER"
             android:textStyle="bold"
             android:textSize="44sp"
-            android:textColor="@color/black">
+            android:textColor="#7815AE">
         </TextView>
               <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
             android:id="@+id/tf2"
+                  android:layout_margin="10dp"
+                  android:drawableLeft="@drawable/user"
             android:hint="Enter Your Gmail"
             android:textColorHint="@color/black"
             ></EditText>
         <EditText
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:id="@+id/tf3"
+            android:drawableLeft="@drawable/baseline_key_24"
             android:hint="Enter Your Password"
             android:textColorHint="@color/black"
             tools:ignore="DuplicateIds"></EditText>
         <EditText
             android:layout_width="match_parent"
+            android:layout_margin="10dp"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:hint="Confirm Password"
             android:id="@+id/tf4"
+            android:drawableLeft="@drawable/baseline_keyboard_24"
             android:textColorHint="@color/black"
             ></EditText>
 
@@ -49,8 +56,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tf6"
+            android:layout_margin="10dp"
             android:text="Register"
             tools:ignore="InvalidId">
         </Button>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/reg" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 </androidx.appcompat.widget.LinearLayoutCompat>

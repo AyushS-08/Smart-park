@@ -5,15 +5,15 @@ android:layout_width="match_parent"
 android:layout_height="match_parent">
 
 <!-- Your other layout elements -->
-
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Smart Park"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:titleTextColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:title="Smart Park"
-        app:titleTextColor="@color/white"
-        android:background="#663CAA"
-        app:navigationIcon="@drawable/baseline_arrow_back_24" ></androidx.appcompat.widget.Toolbar>
+        android:theme="?attr/actionBarTheme" />
+
 </RelativeLayout>

@@ -11,17 +11,18 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-            <androidx.appcompat.widget.Toolbar
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/toolbar"
-                android:minHeight="?attr/actionBarSize"
-                android:theme="?attr/actionBarTheme"
-                app:title="Smart Park"
-                app:titleTextColor="@color/white"
-                android:background="#663CAA"
-                tools:ignore="MissingConstraints"></androidx.appcompat.widget.Toolbar>
-    <Button
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:title="Smart Park"
+            app:titleTextColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <Button
         android:layout_width="match_parent"
         android:id="@+id/tf1"
         android:layout_margin="14dp"
@@ -53,7 +54,8 @@
         android:text="Help"
         tools:ignore="InvalidId">
     </Button>
-</LinearLayout>
+
+    </LinearLayout>
 
 
 
